@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon Logo of website -->
+    <link rel="icon" href="./images/logo.jpeg" type = "image/x-icon">
+
+    <!-- Reset css -->
+    <link rel="stylesheet" href="Styles/reset.css">
+    
+    <!-- Fonts of Header and Footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <!-- Lexend Deca Font-familiy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+    <!-- Inter Font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Roboto Font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Global css -->
+    <link rel="stylesheet" href="Styles/global.css">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- Response css -->
+    <link rel="stylesheet" href="Styles/response.css">
+    <title>PlagCheck</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__inner">
+                    <div class="language-selector">
+                        <span>
+                            Change language
+                        </span>
+                        <select name="" id="" class="language-changer">
+                            <option value="/">English</option>
+                            <option value="/de">Deutsch</option>
+                            <option value="/es">Español</option>
+                            <option value="/fr">Français</option>
+                            <option value="/it">Italiano</option>
+                        </select>
+                    </div>
+                    <div class="header-search-login">
+                        <form action="/seacrch" role="search" class="header-search">
+                            <input type="text" placeholder="Search..." name="q" class="form-control__search">
+                        </form>
+                        <div class="header-login">
+                            <a href="#" class="header__register">Create Account</a>
+                            <a href="#" class="header__login">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-fixed">
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-bottom__inner">
+                        <div class="header-logo">
+                            <img src="Images/logo.png" alt="Logo" class="header-logo__img">
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu__item">
+                                    <p class="menu__link product__dropdown">
+                                        Products
+                                    </p>
+                                </li>
+                                <li class="menu__item">
+                                    <p class="menu__link solution__dropdown">
+                                        Solutions
+                                    </p>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">
+                                        Resources
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">
+                                        Support
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">
+                                        Contact Sales
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <!-- Hamburger -->
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                        
+                        <div class="hamburger-menu">
+                            <div class="hamburger-close">
+                                X
+                            </div>
+                            <nav class="menu">
+                                <ul class="menu-list">
+                                    <li class="menu__item">
+                                        <p class="menu__link header-accordion">
+                                            Products
+                                        </p>
+
+                                        <!-- Dropdowns -->
+                                        <div class="header-accordion__tab">
+                                            <ul class="products-list">
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Originality
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            Address the originality of student work and emerging trends in misconduct with this comprehensive solution.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Gradescope
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            Deliver and grade all types of assessments from anywhere using this modern assessment platform.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            iThenticate 
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            This high-stakes plagiarism checking tool is the gold standard for academic researchers and publishers.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Similarity 
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            This robust, comprehensive plagiarism checker fits seamlessly into existing workflows.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Feedback Studio 
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            Give feedback and grade assignments with this tool that fosters writing excellence and academic integrity.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>    
+                                    </li>
+                                    <li class="menu__item">
+                                        <p class="menu__link header-accordion">
+                                            Solutions
+                                        </p>
+
+                                        <!-- Solution dropdown -->
+                                        <div class="header-accordion__tab">
+                                            <ul class="solution-list">
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Higher Education 
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            Uphold academic integrity, streamline grading and feedback, and protect your reputation with these tools.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Secondary Education 
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            Improve student writing, check for text similarity, and help develop original thinking skills with these tools for teachers.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="products__item">
+                                                    <a href="#" class="products__link">
+                                                        <h3 class="products-title">
+                                                            Research & Publication  
+                                                        </h3>
+                                                        <p class="products-desc">
+                                                            Publish with confidence using the tool top researchers and publishers trust to ensure the originality of scholarly works.
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">
+                                            Resources
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">
+                                            Support
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">
+                                            Contact Sales
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+                            <div class="header-top__inner">
+                                <div class="language-selector">
+                                    <span>
+                                        Change language
+                                    </span>
+                                    <select name="" id="" class="language-changer">
+                                        <option value="/">English</option>
+                                        <option value="/de">Deutsch</option>
+                                        <option value="/es">Español</option>
+                                        <option value="/fr">Français</option>
+                                        <option value="/it">Italiano</option>
+                                    </select>
+                                </div>
+                                <div class="header-search-login">
+                                    <form action="/seacrch" role="search" class="header-search">
+                                        <input type="text" placeholder="Search..." name="q" class="form-control__search">
+                                    </form>
+                                    <div class="header-login">
+                                        <a href="#" class="header__register">Create Account</a>
+                                        <a href="#" class="header__login">Login</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+    
+                    <!-- Dropdowns -->
+                    <div class="products-dropdown">
+                        <ul class="products-list">
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Originality
+                                    </h3>
+                                    <p class="products-desc">
+                                        Address the originality of student work and emerging trends in misconduct with this comprehensive solution.
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Gradescope
+                                    </h3>
+                                    <p class="products-desc">
+                                        Deliver and grade all types of assessments from anywhere using this modern assessment platform.
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        iThenticate 
+                                    </h3>
+                                    <p class="products-desc">
+                                        This high-stakes plagiarism checking tool is the gold standard for academic researchers and publishers.
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Similarity 
+                                    </h3>
+                                    <p class="products-desc">
+                                        This robust, comprehensive plagiarism checker fits seamlessly into existing workflows.
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Feedback Studio 
+                                    </h3>
+                                    <p class="products-desc">
+                                        Give feedback and grade assignments with this tool that fosters writing excellence and academic integrity.
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Solution dropdown -->
+                    <div class="solution-dropdown">
+                        <ul class="solution-list">
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Higher Education 
+                                    </h3>
+                                    <p class="products-desc">
+                                        Uphold academic integrity, streamline grading and feedback, and protect your reputation with these tools.
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Secondary Education 
+                                    </h3>
+                                    <p class="products-desc">
+                                        Improve student writing, check for text similarity, and help develop original thinking skills with these tools for teachers.
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="#" class="products__link">
+                                    <h3 class="products-title">
+                                        Research & Publication  
+                                    </h3>
+                                    <p class="products-desc">
+                                        Publish with confidence using the tool top researchers and publishers trust to ensure the originality of scholarly works.
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Intro section -->
+        <section class="intro">
+            <div class="container">
+                <h2 class="intro-title section-title" id="plag-text">
+                    Plagiarism Checker by PlagChecker
+                </h2>
+                <p class="intro-desc section-text">
+                    PlagChecker’s plagiarism checker detects plagiarism in your text and checks for other writing issues.
+                </p>
+                <div class="intro__inner">
+                    <div class="intro-item">
+                        <img src="Images/Icons/catch_plagiarism.svg" alt="catch_plagiarism" class="intro-item__img">
+                        <p class="intro-item__text">
+                            Catch plagiarism from ProQuest databases and over 16 billion web pages.
+                        </p>
+                    </div>
+                    <div class="intro-forms">
+                        <form action="/" class="plag-checker">
+                            <textarea name="plag-text" id="" cols="30" rows="10" class="plag-text__inp" placeholder="Enter text or upload file to check for plagiarism and writing errors."></textarea>
+                            <div class="plag__inner">
+                                <button class="plag-text__btn" type="submit">Scan for plagiarism</button>
+                            </div>
+                            <p class="differ">
+                                Or
+                            </p>
+                        </form>    
+
+                        <form action="/" class="plag-checker__file">
+                            <button type="submit" class="google-dropbox__btn">
+                                Scan with Google Drive or Dropbox
+                            </button>
+                            <div class="google-dropbox__links">
+                                <a href="#" class="google-drive__link">
+                                    <img src="Images/google-drive-logo-new.png" alt="Google drive" class="google-drive__img">
+                                </a>
+                                <a href="#" class="dropbox__link">
+                                    <img src="Images/dropbox.png" alt="Dropbox" class="dropbox__img">
+                                </a>
+                            </div>
+                        </form>
+                    </div>                                   
+                    <div class="intro-item">
+                        <img src="Images/Icons/grammar_feedback.svg" alt="catch_plagiarism" class="intro-item__img">
+                        <p class="intro-item__text">
+                            Get feedback on grammar, punctuation, vocabulary, and sentence structure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plagiarism Info -->
+        <div class="info">
+            <div class="container">
+                <div class="info__inner">
+
+                    <div class="info-item">
+                        <img src="Images/plagiarism-check.png" alt="Check" class="info-item__img">
+                    </div>
+
+                    <div class="info-item">
+                        <h3 class="info-item__title section-title">
+                            Plagiarism Checking
+                        </h3>
+                        <p class="info-item__desc section-text">
+                            PlagChecker’s plagiarism checker can detect plagiarism from billions of web pages as well as from ProQuest’s academic databases. Our free plagiarism check will tell you whether or not your text contains duplicate content. Our Premium plagiarism check highlights passages that require citations and gives you the resources you need to properly credit your sources.
+                        </p>
+                    </div>
+
+                    <div class="info-item">
+                        <img src="Images/writing-mistake.png" alt="Mistake" class="info-item__img">
+                    </div>
+
+                    <div class="info-item">
+                        <h3 class="info-item__title section-title">
+                            Writing Enhancements
+                        </h3>
+                        <p class="info-item__desc section-text">
+                            The plagiarism checker is part of a robust writing app that offers advanced feedback on writing mechanics like grammar and spelling as well as more complex stylistic issues like word choice, conciseness, tone, and more.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Why -->
+        <section class="why">
+            <div class="container">
+                <div class="why__inner">
+                    <div class="why__info">
+                        <h2 class="why-title section-title">
+                            Why Use a Plagiarism Checker?
+                        </h2>
+                        <p class="why-text">
+                            You’re working on a paper and you’ve just written a line that seems kind of familiar. 
+                            Did you read it somewhere while you were researching the topic? 
+                            If you did, does that count as plagiarism? Now that you’re looking at it, 
+                            there are a couple of other lines that you know you borrowed from somewhere. 
+                            You didn’t bother with a citation at the time because you weren’t planning to keep them. 
+                            But now they’re an important part of your paper. 
+                            Is it still plagiarism if you’re using less than a paragraph?
+                        </p>
+                        <p class="why-text">
+                            Using someone else’s text without attribution is plagiarism, whether you meant to do it or not. 
+                            Unintentional plagiarism of even a sentence or two can have serious consequences. 
+                            For students, plagiarism often means a failing grade, academic probation, or worse. 
+                            Fortunately, there is a tool that can help. Grammarly’s online plagiarism checker 
+                            can help you ensure that you have properly identified and cited anything in your text 
+                            that isn’t 100 percent original.
+                        </p>
+                        <p class="why-text">
+                            We originally designed our online plagiarism checker for students, but it’s a useful 
+                            tool for writers in any field who want to create fresh, original, plagiarism-free work.
+                        </p>
+                    </div>
+                    <div class="why-bg">
+                        <img src="Images/Icons/plagiarism-detector.svg" alt="plagiarism-detector" class="why-bg__img">
+                    </div>
+                </div>
+
+
+                <div class="how-works__inner">
+                    <img src="Images/Icons/plagiarism-check.svg" alt="plagiarism-check" class="how-works__img">
+                    <div class="how-works__info">
+                        <h3 class="how-works__title section-title">
+                            How Does Grammarly’s Plagiarism Checker Work?
+                        </h3>
+                        <p class="why-text">
+                            You’re working on a paper and you’ve just written a line that seems kind of familiar. 
+                            Did you read it somewhere while you were researching the topic? 
+                            If you did, does that count as plagiarism? Now that you’re looking at it, 
+                            there are a couple of other lines that you know you borrowed from somewhere. 
+                            You didn’t bother with a citation at the time because you weren’t planning to keep them. 
+                            But now they’re an important part of your paper. 
+                            Is it still plagiarism if you’re using less than a paragraph?
+                        </p>
+                        <p class="why-text">
+                            Using someone else’s text without attribution is plagiarism, whether you meant to do it or not. 
+                            Unintentional plagiarism of even a sentence or two can have serious consequences. 
+                            For students, plagiarism often means a failing grade, academic probation, or worse. 
+                            Fortunately, there is a tool that can help. Grammarly’s online plagiarism checker 
+                            can help you ensure that you have properly identified and cited anything in your text 
+                            that isn’t 100 percent original.
+                        </p>
+                        <p class="why-text">
+                            We originally designed our online plagiarism checker for students, but it’s a useful 
+                            tool for writers in any field who want to create fresh, original, plagiarism-free work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Works section -->
+        <section class="works">
+            <div class="container">
+                <h2 class="works-title section-title">
+                    Works Where You Do
+                </h2>
+                <p class="works-desc section-text">
+                    Get corrections from PlagChecker while you write on Gmail, Twitter, LinkedIn, and all your other favorite sites.
+                </p>
+                <div class="works__inner">
+                    <div class="works__item">
+                        <h3 class="works__item-title">
+                            Emails and Messages
+                        </h3>   
+                        <div class="works__programs">
+                            <div class="works-program">
+                                <img src="Images/Icons/gmail.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    GMAIL
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/outlook.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    OUTLOOK
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/messenger.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    MESSENGER
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/yahoo.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    YAHOO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <h3 class="works__item-title">
+                            Documents and Projects
+                        </h3>   
+                        <div class="works__programs">
+                            <div class="works-program">
+                                <img src="Images/Icons/slack.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    SLACK
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/g_docs.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    GOOGLE DOCS
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/jira.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    JIRA
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/salesforce.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    SALESFORCE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <h3 class="works__item-title">
+                            Social Media
+                        </h3>   
+                        <div class="works__programs">
+                            <div class="works-program">
+                                <img src="Images/Icons/medium.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    MEDIUM
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/facebook.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    FACEBOOK
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/twitter.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    TWITTER
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/linked_in.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    LINKEDIN
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container-sm">
+                <div class="about__inner">
+                    <div class="about-info">
+                        <h2 class="about-title section-title">
+                            Everyone Can Be a Great Writer
+                        </h2>
+                        <p class="about-desc section-text">
+                            “Grammarly allows me to get those communications out and feel confident that I’m putting my best foot forward. 
+                            Grammarly is like a little superpower, especially when I need to be at 110%.”
+                        </p>
+                    </div>
+                    <div class="about-galery">
+                        <img src="Images/worker-woman.png" alt="Worker" class="about-workers">
+                        <h3 class="about-worker__name">
+                            Jeanette Stock
+                        </h3>
+                        <p class="about-worker__role">
+                            Co-founder of
+                            Venture Out
+                        </p>
+                    </div>
+                </div>
+                <div class="about-brands">
+                    <p class="about-brands__title">
+                        Featured in:
+                    </p>
+                    <div class="about-brands__inner">
+                        <div class="about-brands__item">
+                            <img src="Images/Icons/new_york_times.svg" alt="" class="about-brands__img">
+                        </div>
+                        <div class="about-brands__item">
+                            <img src="Images/Icons/wsj.svg" alt="" class="about-brands__img">
+                        </div>
+                        <div class="about-brands__item">
+                            <img src="Images/Icons/usa_today.svg" alt="" class="about-brands__img">
+                        </div>
+                        <div class="about-brands__item">
+                            <img src="Images/Icons/techcrunch.svg" alt="" class="about-brands__img">
+                        </div>
+                        <div class="about-brands__item">
+                            <img src="Images/Icons/forbes.svg" alt="" class="about-brands__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Writing section -->
+        <section class="writing">
+            <div class="container">
+                <div class="writing__inner">
+                    <h2 class="writing-title section-title">
+                        Millions of users trust PlagChecker’s plagiarism checker
+                    </h2>
+                    <p class="writing-desc section-text">
+                        Students, educators, and professional writers alike trust Grammarly to help them produce original, well-written, and well-sourced work. Save time and see better results with Grammarly’s plagiarism checker and writing feedback app.
+                    </p>
+                    <a href="#plag-text" class="writing-link">
+                        Check your text now
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container"> 
+            <div class="footer__inner">
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Products
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Feedback Studio</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Gradescope</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">PlagCheck Originality</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">PlagCheck Similarity</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">iThenticate</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Revision Assistant</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Solutions
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Higher Education</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Secondary Education</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Research & Publication</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Partners</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Support
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Help</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">System Status</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Support Center</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Company
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Careers</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Press</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Accessibility</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Privacy</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">CA Privacy Rights</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Connect
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">PlagCheck Educator Network</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Gradescope</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Twitter</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">LinkedIn</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Facebook</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Pinterest</a>
+                    </li>
+                </ul>
+                <div class="footer__logo">
+                    <a href="#" class="logo-link">
+                        <img src="Images/logo.png" alt="" class="logo-pic">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Slider -->
+    <script src="./Scripts/slick.min.js"></script>
+
+    <!-- App js -->
+    <script src="Scripts/app.js"></script>
+</body>
+</html>

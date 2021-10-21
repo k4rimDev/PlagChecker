@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-sm{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-bg{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.section-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: rgb(34, 35, 41);
+    letter-spacing: 0.5px;
+}
+
+.section-text{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    line-height: 130%;
+    color: rgb(14, 16, 26);
+}
